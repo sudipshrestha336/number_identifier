@@ -76,21 +76,9 @@ In the typed box, entries are separated by commas, semicolons or new lines. Writ
 - The tool deliberately over-flags: things like `COVID-19` or phone numbers also get comments.
 - Because sign and trailing zeros are ignored when matching, a figure with a wrong sign or extra zeros that otherwise equals an ignore entry will be skipped.
 
-## Building an executable
-
-PyInstaller cannot cross-compile, so build on the system you are targeting, using the same Python that has the packages installed.
-
-```bash
-python -m pip install pyinstaller
-python -m PyInstaller --onefile --windowed --collect-all pymupdf number_comments_gui.py
-```
-
-On macOS, leave out `--onefile` (the result is `dist/number_comments_gui.app`). Unsigned apps need right-click > Open the first time. Some antivirus programs flag PyInstaller executables; this is a known false positive.
 
 ## Privacy
 
 Everything runs locally. No document or ignore list is uploaded anywhere.
 
-## License
 
-Add a license of your choice (for example MIT) as a `LICENSE` file.
