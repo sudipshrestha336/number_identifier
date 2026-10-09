@@ -1,5 +1,5 @@
 """
-number_comments_gui.py
+number_identifier.py
 ----------------------
 Tkinter app: pick a Word (.docx) or PDF file, and it creates a copy where every
 numerical figure is highlighted and has a comment asking the reviewer to verify it.
@@ -7,7 +7,7 @@ Figures found in an ignore list (typed, or loaded from Excel) are left alone.
 The original file is never modified.
 
 Requires:  pip install "python-docx>=1.2.0" openpyxl pymupdf     (pymupdf is only needed for PDFs)
-Run:       python number_comments_gui.py
+Run:       python number_identifier.py
 """
 
 import copy
