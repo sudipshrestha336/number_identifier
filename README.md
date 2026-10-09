@@ -18,14 +18,6 @@ It finds every numerical figure, highlights it, and attaches a comment asking th
 
 Requires Python 3.9 or newer.
 
-```bash
-pip install -r requirements.txt
-python number_comments_gui.py
-```
-
-`pymupdf` is only loaded when you choose PDF, so Word-only use works without it.
-
-On Linux, tkinter may need `sudo apt install python3-tk`. On macOS, use the Python from python.org, because the Python bundled with Xcode often ships an outdated Tk.
 
 ## Usage
 
