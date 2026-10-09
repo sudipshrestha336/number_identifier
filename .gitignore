@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# PyInstaller output
+build/
+dist/
+*.spec
+
+# Local test documents and reports (may contain sensitive data)
+*.docx
+*.pdf
+*.xlsx
+*.xlsm
+*.csv
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
